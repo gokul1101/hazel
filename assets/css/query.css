@@ -1,0 +1,152 @@
+@media (max-width: 993px){
+    .navbar .nav ul{
+        display: none;
+    }
+    .navbar .logo{
+        right: 1.2rem;
+    }
+    .navbar .icon{
+        padding: 0 3rem;
+    }
+    .navbar .icons .open, .fa-times{
+        display: block;
+        color: #999999;
+        font-size: 23px; 
+    }
+    .heading h4{
+        font-size: 30px;
+        line-height: 101px;
+        position: relative;
+        top: -1rem;
+    }
+    .heading p{
+        font-size: 14px;
+        line-height: 17px;
+        position: relative;
+        top: 11rem;
+    }
+    .buttons{
+        position: relative;
+        top: 10rem;
+    }
+    .buttons .about, .about1{
+        height: 56px;
+        width: 123px;
+        border: 2px solid #101010;
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 27px;
+        padding: 12px 20px;
+    }
+    .about1{
+        color: #fff;
+    }
+    .features{
+        width: 100%;
+    }
+    .feature-content{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0 50px;
+    }
+    .features-img{
+        width: 100%;
+        height: 50%;
+        background: #f7f7f7;
+    }
+    .features-img .img-content img{
+        position: relative;
+        left: 10rem;
+        bottom: 0;
+    }
+    .quote-text{
+        padding: 5rem;
+    }
+    .quote-text p{
+        position: relative;
+        top: 8rem;
+        left: 2rem;
+    }
+    .author{
+        padding: 5rem 0 3rem 5rem;
+        position: relative;
+        left: 2rem;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+        grid-gap: 1rem;
+    }
+    .grid-items1{
+        left: 2rem;
+    }
+}
+
+@media (max-width: 770px){
+    .heading h4{
+        font-size: 19px;
+        line-height: 62px;
+        position: relative;
+        top: -5.8rem;
+        left: 3rem;
+    }
+    .heading p{
+        font-size: 9px;
+        line-height: 25px;
+        position: relative;
+        top:-4.5rem;
+    }
+    .buttons{
+        top: 0;
+    }  
+    .icon{
+        display: none;
+    }
+    button{
+        text-transform: uppercase;
+        background-color: transparent;
+        border: 1px solid #101010 !important;
+    }
+    .buttons .about,.about1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        line-height: 16px;
+        height: 24px;
+        padding: 3px 12px !important;
+    }       
+    .about1{
+        color: #101010;
+    }
+    .features-img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .img-content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .features-img .img-content img{
+        width: 100%;
+        height: 100%;
+        transform: translateX(-15%);
+    }
+    .clients .client-content .client-card{
+        margin: 0 !important;
+    }
+
+}
+@media (max-width: 500px){
+    .features-img .img-content img{
+        transform: translateX(-20%);
+    }
+}
+
+
+
+
